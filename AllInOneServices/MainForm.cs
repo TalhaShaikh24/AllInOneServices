@@ -66,7 +66,7 @@ namespace AllInOneServices
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
         private static extern short GetAsyncKeyState(Keys key);
 
-        //Declaring Global objects
+        //Declaring Global objectss
         private IntPtr ptrHook;
         private LowLevelKeyboardProc objKeyboardProcess;
 
