@@ -12,7 +12,7 @@ namespace AllInOneServices.Models
     public class DeviceInfo
     {
         [FirestoreProperty]
-        public string MachineId { get; set; } = null!;
+        public string MachineId { get; set; } = null;
 
         [FirestoreProperty]
         public string MacAddress { get; set; }

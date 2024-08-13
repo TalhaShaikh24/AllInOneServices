@@ -19,7 +19,7 @@ namespace AllInOneServices.Models
 
     public class SystemInfo
     {
-        public string? SerialNumber { get; set; }
-        public string? PcName { get; set; }
+        public string SerialNumber { get; set; } = null;
+        public string PcName { get; set; } = null;
     }
 }
